@@ -4,6 +4,43 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     border: solid 1px #171616;
     background-color: #d9d5c6;
   }
+
+h1 { 
+    font-family: "times new roman";
+    font-size: 80px;
+  }
+
+h2 {
+  font-family: "fantasy";
+  font-size: 50px;
+}
+
+.battle-buddy {
+    margin: 10px;
+    max-width: 200px
+  }
+
+.title-section {
+    padding: 20px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: solid 2px black;
+    background-color: #d9d5c6;
+  }
+
+  .photo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .photo {
+    width: 300px;
+    margin: 5px;
+    }
