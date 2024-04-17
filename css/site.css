@@ -3,7 +3,7 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
-body {
+.body {
   background-color: #7f2c2c;
 }
 
@@ -24,7 +24,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #201b1b;
-  background-color: #0e8d41;
+  background-color: #165f7c;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */

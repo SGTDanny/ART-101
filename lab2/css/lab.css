@@ -10,22 +10,17 @@
     background-color: #d9d5c6;
   }
 
-h1 { 
-    font-family: "times new roman";
+.h1 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 80px;
     margin-bottom: 5px;
     margin-top: 5px;
   }
 /*Thsi is to make the subtitle change font*/
-h2 {
-  font-family: "times new roman";
+.h2 {
+  font-family: papyrus, fantasy;
   font-size: 50px;
 }
-
-.battle-buddy {
-    margin: 10px;
-    max-width: 200px
-  }
 
 .title-section {
     padding: 20px;
@@ -33,7 +28,7 @@ h2 {
     margin-left: 100px;
     margin-bottom: 40px;
     margin-top: 40px;
-    border: solid 2px black;
+    border: solid 5px black;
     background-color: #d9d5c6;
   }
 
@@ -50,4 +45,5 @@ h2 {
 
   p.special {
       font-size: 25px;
+      font-family: papyrus, fantasy;
     }
