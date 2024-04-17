@@ -3,7 +3,7 @@
 /* you can pick your own background colors, text colors, and fonts */
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
-.body {
+.backdrop {
   background-color: #7f2c2c;
 }
 
