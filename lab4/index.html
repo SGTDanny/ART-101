@@ -1,51 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
-
-	<!-- Use UTF character set, a good idea with any webpage -->
+	<title>Lab 4: Pseudocoding and Problem-solving</title>
   	<meta charset="UTF-8" />
-	<!-- Set viewport so page remains consistently scaled w narrow devices -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	
-	<!-- Include a sitewide CSS file for consistent styling across the site -->
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
-	
-	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 	<script type="text/javascript" src="./js/lab.js" DEFER></script>
 </head>
-<body>
-	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+<body class="backdrop">
+	
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1 class="title-section" style="text-align: center;" > Lab 4: Pseudocoding and Problem-solving</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>creating pseudocode for a computer game.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>I ran into the problem of trying to figure the approparet things to consider in developing pseudocode for the game. But My partner and I tried our best to figure it out. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>This was an interesting assignemnt. It does help with getting a better idea of how to go about JavaScript. Forcing me to consider how to properly organize my code. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
-					<div id="output"></div>
+					<pre><cod>
+// Rock, Paper, Scissars.
+// An implementation of the game.
+						
+// Daniel Gallegos <djgalleg@ucsc.edu>
+// 24 April 2024
+						
+// Have two players.
+	// Designate a Player 1 and a Player 2
+// Winner of the game is decided by winning two out of three matches.
+// Each player has three tools to use.
+	// Rock, Paper, or Scissors
+// Players simultaneously choose one of the three choices on the count of three.
+// The winner of each mach is dependent on the choice of each player
+	// Rock wins against Scissors
+	// Scissors wins against Paper
+	// Paper wins against Rock
+// A tie will happen when each player makes the same choice.
+// When there is a tie the match will continue till one player beets the other.
+					</pre></code>
 			</div>
 		</section>
 		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
+			<li><a href="https://sgtdanny.github.io/ART-101/">Back to Homepage</a></li>
 		</nav>
 	</main>
 </body>
