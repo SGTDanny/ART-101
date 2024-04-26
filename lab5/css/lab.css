@@ -7,3 +7,32 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+  
+.title-section {
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: solid 5px #888888;
+    background-color: #DDD8C4;
+  }
+
+.photo-size {
+    width: 600px;
+    height: auto;
+    margin-left: 20px;
+  }
+.alignment {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 170%
+  }
+
+  h3 {
+    font-size: 180%;
+    margin-bottom: 3px;
+  }
+  
+  .backdrop {
+    background-color: #c4c4b7;
+  }  
