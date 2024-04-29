@@ -1,2 +1,8 @@
 div{border: 2px solid #bd2424;padding: 10px;}
 
+
+.background-container {
+    background-image: url("\lab6\img\ocean.jpg");
+    background-size:cover;
+    background-position: center;
+  }
