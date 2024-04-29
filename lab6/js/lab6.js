@@ -4,7 +4,7 @@
 
 
 //Array
-const myTransportation = ["walking", "car", "TAPS Bus", "Metro Bus", "Uber"];
+const myTransport = [" walking", " Honda Accord", " TAPS Bus", " Metro Bus", " Uber"];
 
 //Object
 const myMainRide = {
@@ -18,7 +18,7 @@ const myMainRide = {
 };
 
 //Output
-document.writeln("How I get around town:" + myTransport + "<br>");
+document.writeln ("How I get around town:" + myTransport + "<br>");
 
 //Object Output
 document.writeln ("My Main Ride: <pre>",
