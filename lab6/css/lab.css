@@ -36,7 +36,7 @@
   }
 
 .background-container {
-  background-image: url("C:\Users\djgal\OneDrive\Documents\GitHub\ART-101\lab6\img\ocean.jpg");
+  background-image: url('C:\Users\djgal\OneDrive\Documents\GitHub\ART-101\lab6\img\ocean.jpg');
   background-size:cover;
   background-position: center;
 }
