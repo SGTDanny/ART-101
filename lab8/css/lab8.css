@@ -1,0 +1,23 @@
+.section {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: solid 5px #888;
+    background-color: #DDD8C4
+}
+
+.top-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid 5px #888;
+    background-color: #DDD8C4
+}
+
+.background-container {
+    background-image: url(".lab8/img/hoh-river-valley.jpg");
+    background-size:cover;
+    background-position: center;
+  }
