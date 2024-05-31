@@ -16,6 +16,3 @@ $("#make-convo").click(function(){
     console.log("Button is clicked");
     $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
-
-
-
