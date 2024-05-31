@@ -1,5 +1,5 @@
 .section {
-    background-color: rgba(195, 162, 121, 0.559);
+    background-color: rgba(92, 189, 150, 0.516);
     border: solid 2px;
     margin-bottom: 10px;
     margin-left: 40px;
@@ -13,8 +13,12 @@ img {
 }
 
 .sub-section{
-    background-color: rgba(195, 162, 121, 0);
+    background: rgba(195, 162, 121, 0.559);
     border:solid 2px;
     border-color: rgb(113, 63, 63);
     margin: 15px;
+}
+
+h1,h2,h3,h4,p {
+    margin-left: 20px;
 }
