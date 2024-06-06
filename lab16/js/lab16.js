@@ -2,10 +2,10 @@
 //Daniel Gallegos
 // 07 May 2024
 
-const URL = "https://xkcd.com/614/info.0.json";
+const url = "https://xkcd.com/614/info.0.json";
 
 const comicObj = {
-    url: URL,
+    url: url,
     type: "GET",
     dataType: "json",
     success: ajaxSuccess,
