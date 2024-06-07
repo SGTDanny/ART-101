@@ -16,3 +16,15 @@
   border: solid 5px #888888;
   background-color: #DDD8C4;
 }
+
+button {
+  margin: 10px;
+  padding: 20px;
+  background-color: rgba(92, 152, 86, 0.841);
+  text-decoration-color: white;
+  border: solid black;
+}
+
+.button_box{
+  text-align: center;
+}
